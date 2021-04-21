@@ -9,9 +9,9 @@ import 'icon.dart';
 
 class Footer extends StatelessWidget {
   final String _getInTouch =
-      "You have an idea, I am here to turn your dream into real digital solution.";
+      "Don't worry, Im here for your mobile and IoT Solution";
   final String _description =
-      "I am developer has around 4 years experience developing mobile and web applications, using different languages and techniques.";
+      "Hi, I'm Flutter Developer, I'm 23 years old. I have a passion as a mobile and IoT engineer. interested in doing problem solving and making things effective and efficient for improving quality.";
 
   @override
   Widget build(BuildContext context) {
@@ -189,7 +189,7 @@ class Footer extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'Proudly powered by OuahidDev ©${DateTime.now().year}',
+                  'Ferdian Gunawan Portfolio ©${DateTime.now().year}',
                   style: TextStyle(
                     color: AppColors.greyLight.withOpacity(.75),
                   ),
@@ -365,7 +365,7 @@ class Footer extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             Text(
-              'Proudly powered by OuahidDev ©${DateTime.now().year}',
+              'Ferdian Gunawan ©${DateTime.now().year}',
               style: TextStyle(
                 color: AppColors.greyLight.withOpacity(.75),
               ),

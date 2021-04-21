@@ -11,78 +11,70 @@ class Project {
 // ignore: non_constant_identifier_names
 List<Project> PROJECTS = [
   Project(
-    name: 'Omran',
+    name: 'Ontix',
     description:
-        'Developing a strategic plan that can lead the Muslim Ummah towards global competitiveness and can direct the efforts of qualified and skilled youth towards optimal utilization of planning and institutional tools to contribute to the renaissance of their communities and homeland countries.',
-    image: 'images/projects/omran.png',
-    url: 'https://play.google.com/store/apps/details?id=org.omran.android',
-    skills: [
-      'Dart',
-      'Java',
-      'Php',
-      'Sql',
-      'Flutter',
-      'OneSignal',
-      'Git',
-    ],
-  ),
-  Project(
-    name: 'Topfood',
-    description: 'Food delivery app',
-    image: 'images/projects/topfood.png',
+        'Developing a Ticketing booking application with Flutter SDK and Firebase',
+    image: 'images/projects/ontix.jpeg',
     url:
-        'https://play.google.com/store/apps/details?id=dz.topfood.top_food_client',
+        'https://drive.google.com/file/d/1350ilQcNq-nUood0LSbEq28JQumQM3go/view?usp=sharing',
     skills: [
       'Dart',
+      'Json',
+      'Firebase',
       'Flutter',
       'Git',
     ],
   ),
   Project(
-    name: 'Toptaxi',
+    name: 'Food delivery app',
+    description: 'Developing food delivery app with beautiful interface',
+    image: 'images/projects/foodApp.png',
+    url:
+        'https://drive.google.com/file/d/1jIq4THe3MykC3mP5_ju8ye_grWVXVLVx/view?usp=sharing',
+    skills: [
+      'Dart',
+      'Flutter',
+      'Json'
+          'Git',
+    ],
+  ),
+  Project(
+    name: 'Service Guidance',
     description:
-        'Toptaxi is a third party transportation service, which is intended to provide cars to its customers through a smart application whenever they request. The use of this application is free',
-    image: 'images/projects/toptaxi.png',
-    url: 'https://play.google.com/store/apps/details?id=toptaxi.dz',
+        'Learning apps for mechanic student to do service on heavy equipment',
+    image: 'images/projects/serviceguidance.jpeg',
+    url:
+        'https://drive.google.com/file/d/1vSifFw948s9qiP2SMF9bLIJ_RvKkpOBA/view?usp=sharing',
     skills: [
       'Java',
-      'Php',
-      'JavaScript',
-      'Html',
-      'Css',
-      'Sql',
+      'Android Studio',
       'Firebase',
-      'Laravel',
-      'OneSignal',
       'Git',
     ],
   ),
   Project(
-    name: 'Nataloe',
+    name: 'Machine Health and Condition Monitoring',
     description:
-        'nataloe شركة جزائرية - إسبانية متخصصة بانتاج مستحضرات شبه صيدلانية للعناية اليومية بالبشرة اعتمادا على خلاصتي الألوفيرا والحلزون والزيوت الأساسية',
-    image: 'images/projects/nataloe.png',
-    url: 'https://play.google.com/store/apps/details?id=com.nataloe',
+        'Monitoring realtime data Komatsu PC3000-6E Electric by Android (IoT)',
+    image: 'images/projects/mhcm.jpeg',
+    url:
+        'https://drive.google.com/file/d/1DlSViRbXZk9YQW7g3xjBYBaLunTxLs4o/view?usp=sharing',
     skills: [
-      'Kotlin',
-      'Php',
-      'JavaScript',
-      'Html',
-      'Css',
-      'Sql',
+      'Java',
+      'Android Studio',
       'Firebase',
-      'Laravel',
       'Git',
     ],
   ),
   Project(
-    name: 'جداء',
-    description:
-        'يعتبر تعليم الطفل جدول الضرب من أصعب الأمور بالنسبة للأولياء وممل بالنسبة لطفل، لكن مع التطور التكنولوجي وحب الاطفال للتكنولوجيا أصبح ذلك من أيسر المهام على الأولياء والطفل على حد سواء ؛ تطبيق جداء يعتبر الحل الامثل لتعلم جدول الضرب خطوة بخطوة بطريقة سهلة وممتعة مع أصوات خاصة بالإجابة الصحيحة أوالخاطئة، أيضا التطبيق يعطيك تقييما لمستواك خلال التعلم تقييم لكل الجداول معا وتقييم خاص لكل جدول كما يمكنك التطبيق من إجراء إمتحان مباشر لتحديد المستوى ويقوم بحفظ كل نتائجك مع التقييم والتاريخ وبالتالي يمكنك الرجوع لها في أي وقت للإطلاع عليها وملاحظة مراحل تطورك مع الوقت.',
-    image: 'images/projects/juda.png',
-    url: 'https://play.google.com/store/apps/details?id=com.ouahiddev.juda',
+    name: 'Cozy Room',
+    description: 'Find cozy house to stay and happy',
+    image: 'images/projects/kos.png',
+    url:
+        'https://drive.google.com/file/d/13K0vHobP-VmXmwDoMlT633GLul-wj94n/view?usp=sharing',
     skills: [
-      'Java',
+      'Dart',
+      'Flutter',
       'Sql',
       'Git',
     ],

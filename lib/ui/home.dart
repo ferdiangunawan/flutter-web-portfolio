@@ -49,7 +49,7 @@ class _HomeState extends State<Home> {
         body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('images/background.jpg'),
+              image: AssetImage('images/dart.jpeg'),
               fit: BoxFit.cover,
             ),
           ),
@@ -64,7 +64,7 @@ class _HomeState extends State<Home> {
                 flexibleSpace: Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('images/cover.jpg'),
+                      image: AssetImage('images/dart.jpeg'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -92,7 +92,7 @@ class _HomeState extends State<Home> {
                       width: 40,
                       height: 40,
                       color: AppColors.yellow,
-                      child: Image.asset('images/ouahid.png'),
+                      child: Image.asset('images/fgdev.png'),
                     ),
                   ),
                 ),
@@ -177,7 +177,7 @@ class _HomeState extends State<Home> {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(1000),
                     child: Image.asset(
-                      'images/ouahid.png',
+                      'images/fgdev.png',
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -280,7 +280,7 @@ class _HomeState extends State<Home> {
         body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('images/background.jpg'),
+              image: AssetImage('images/dart.jpeg'),
               fit: BoxFit.cover,
             ),
           ),
@@ -304,7 +304,7 @@ class _HomeState extends State<Home> {
                           width: 40,
                           height: 40,
                           color: AppColors.yellow,
-                          child: Image.asset('images/ouahid.png'),
+                          child: Image.asset('images/fgdev.png'),
                         ),
                       ),
                     ),
@@ -313,7 +313,7 @@ class _HomeState extends State<Home> {
                 flexibleSpace: Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('images/cover.jpg'),
+                      image: AssetImage('images/dart.jpeg'),
                       fit: BoxFit.cover,
                     ),
                   ),

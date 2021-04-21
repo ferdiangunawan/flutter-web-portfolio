@@ -26,21 +26,13 @@ class WorkingProcess extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Expanded(
-                  child: __buildProcess(
-                      context,
-                      '01.',
-                      'icons/pencil.png',
-                      'Plan',
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor laboris nisi ut aliquip ex ea commodo.'),
+                  child: __buildProcess(context, '01.', 'icons/pencil.png',
+                      'Plan', 'Planning my next app'),
                 ),
                 const SizedBox(width: 10),
                 Expanded(
-                  child: __buildProcess(
-                      context,
-                      '02.',
-                      'icons/design.png',
-                      'Design',
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor laboris nisi ut aliquip ex ea commodo.'),
+                  child: __buildProcess(context, '02.', 'icons/design.png',
+                      'Design', 'Design my photo background remover app.'),
                 ),
                 const SizedBox(width: 10),
                 Expanded(
@@ -49,7 +41,7 @@ class WorkingProcess extends StatelessWidget {
                       '03.',
                       'icons/coding.png',
                       'Code',
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor laboris nisi ut aliquip ex ea commodo.'),
+                      'Do some project from Dinas Kesehatan Pekanbaru and Kaltim Prima Coal IoT Komatsu D85ESS-2'),
                 )
               ],
             ),
@@ -74,13 +66,13 @@ class WorkingProcess extends StatelessWidget {
             Container(width: 50, height: 2, color: AppColors.yellow),
             const SizedBox(height: 50),
             __buildProcess(context, '01.', 'icons/pencil.png', 'Plan',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor laboris nisi ut aliquip ex ea commodo.'),
+                'Planning my next app'),
             const SizedBox(height: 10),
             __buildProcess(context, '02.', 'icons/design.png', 'Design',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor laboris nisi ut aliquip ex ea commodo.'),
+                'Design my photo background remover app.'),
             const SizedBox(height: 10),
             __buildProcess(context, '03.', 'icons/coding.png', 'Code',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor laboris nisi ut aliquip ex ea commodo.'),
+                'Do some project from Dinas Kesehatan Pekanbaru and Kaltim Prima Coal IoT Komatsu D85ESS-2'),
           ],
         ),
       ),
